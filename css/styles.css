@@ -1,0 +1,549 @@
+
+/***Fonts***/
+
+    /*
+
+    
+
+    font-family: 'Cherry Bomb', cursive;
+
+    font-family: 'Dosis', sans-serif;
+
+
+
+*/
+
+
+/**Global Styling **/
+body {
+    
+    background: #E86F68;
+    margin:0px;
+    padding:0px;
+    min-width:660px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+}
+
+
+body h1{
+    font-family: 'Cherry Bomb', cursive;
+    font-size:45px;
+}
+body h2{
+    font-size: 28px;    
+}
+body h3{
+    font-size: 20px;
+
+}
+
+body figcaption{
+    padding:7px;
+    font-size:12px;
+    font-style: italic;
+    
+}
+
+       
+main {
+    background-color: white;
+}
+
+
+h1  h2{
+    color:white;
+    font-Size: 30px;
+}
+
+
+/***Nav bar: start ***/
+nav{
+ 
+    
+    height:130px;
+    width:auto;
+    background-color: #E86F68;
+    display:flex;
+   
+    
+}
+    /***Logo container: tart***/
+.logo {
+    
+    height: 70px;
+    width:100px;
+    background:#E86F68;
+    color:black;
+    padding: 10px;
+    flex:1;
+    
+
+    
+
+}
+
+.logo img{
+    max-height:100%;
+    padding:10px;
+    border: 4px solid black;
+    border-radius:20px;
+  
+}
+    /***Logo: end**/
+
+        /**Navigation-menu: start**/
+
+.nav-menu {
+    padding-top:10px;
+    
+    
+    
+}
+nav ul{
+    margin:0px;
+    list-style: none;
+    margin-right:20px;
+}
+    nav ul li ul {
+    margin-right:0px;
+}
+nav ul li {
+    float:right;
+    width:120px;
+    height:40px;
+    line-height:40px; 
+    text-align:center;
+    font-size: 20px;
+    background-color:#E86F68;
+   
+}
+nav ul li a {
+    text-decoration:none;
+    color:white;
+    display:block; 
+     transition-property:all;
+    transition-duration: 0.3s;
+    
+    /**displaying block will cover entire area when hovering**/
+}
+
+nav ul li a:hover {
+    font-size: 22px;
+    text-shadow: 3px 3px 3px brown;
+}
+
+
+nav ul li ul li {
+    display:none;
+    
+}
+
+nav ul li:hover ul li { 
+    display:block;
+   
+    
+}
+    
+    /**Navigation-menu: end**/
+
+ /**Nav-bar: end**/
+
+
+/*******Header background*****/
+.masthead {
+
+    background-image: url(../images/masthead.jpg);
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.masthead h1{
+    text-align: center;
+    color:#E2CD6D;
+    Padding-top: 40px;
+    padding-bottom:10px;
+    text-transform: capitalize;
+    text-shadow: 1px 5px 22px #E86F68 ;
+    margin-top:0px;
+    background:black;
+    opacity:0.7;
+    border-top:4px solid white;
+    border-bottom:4px solid white;
+    
+    
+}
+
+/********Index.html********/
+/********Row 1: start********/
+
+main {
+    padding:20px;
+    background-color: white;
+}
+.promo {
+    width:auto;
+    display:flex; 
+    flex-flow:column;
+    
+}
+
+ .promo a{
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+    font-style: italic;
+    padding:10px;
+
+}
+.promo a:hover {
+    color:red;
+    padding: 5px;
+    border: 2px solid #E86F68;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+
+.promo h2{
+    width:30%;
+    padding:0px 10px 10px 10px;
+    
+}
+
+.promo .row1{
+display:flex;
+}
+.promo .row1 p{
+    width:40%;
+}
+.promo iframe {
+    max-height: 100%;
+    max-width: 100%;
+    box-shadow: 3px 3px 3px gray;
+}
+.promo figure {
+    width:30%;
+   float:right;
+   
+}
+/********Row 1: end********/
+
+.promo .row2{
+display:flex;
+}
+.promo .row2 p{
+width:30%;
+
+}
+
+.promo .row2 h2{
+    width:27%;
+}
+
+.promo .row2 img {
+  
+    width:350px;
+    height:240px;
+    margin:10px;
+    box-shadow: 3px 3px 3px gray;
+    border-radius :10px;
+    
+    
+
+}
+/*****Row-2:start*****/
+
+
+/*****Row-2:end*****/
+
+
+
+/***Footer:start**/
+footer  {
+    height:160px;
+    width:100%;
+    background-color: #E86F68;
+    display:flex; 
+    
+}
+    /****footer-logo****/
+.footer-logo {
+    height: 70px;
+    width:100px;
+    background:#E86F68;
+    color:black;
+    padding: 10px;
+    padding-right:30px;
+    padding-top:24px;
+    flex:1;
+    
+}
+
+.footer-logo img{
+    max-height:100%;
+    padding:10px;
+    border: 4px solid black;
+    border-radius:20px;
+
+}
+
+    /****footer-logo: end****/
+
+
+footer ul {
+    list-style: none;
+    font-size:10px;
+   
+}
+footer a{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+}
+footer li:first-child {
+    color: white;
+    text-decoration: underline;
+    line-height:3;
+    font-size: 18px;
+}
+.section1{
+    flex:1;
+    min-width:160px;
+   
+}
+.section2 {
+   
+    flex:1;
+   
+}
+.section3{
+    flex:1;
+   
+    
+}
+
+
+
+/***Footer:end**/
+
+/**********Index.html: End********/
+
+/**********corporate.html:star****/
+
+
+
+
+
+#corporate {
+    display:flex;
+    
+}
+    /**********Part 1: the founder*****/
+#corporate .part-1 {
+    
+    width:60%;
+    padding:10px;  
+    display:flex;
+    flex-direction: column;
+    margin-left: 20%;
+    display:block; /***to wrap text around img***/
+  
+}
+#corporate .part-1 figure {
+   display:flex;
+    flex-direction: column;
+  
+        
+}
+
+#corporate .part-1 figure {
+   float:right;
+    height: 300px;
+    width:auto;
+}
+#corporate .part-1 figcaption {
+   float:right;
+  
+    /**********Part 2:albumr*****/
+}
+
+#corporate .part-2 {
+    display:flex;
+    flex-direction:row;
+    margin-left: 10%;
+   
+}
+#corporate  img{
+max-height: 100%;
+max-width: 100%;
+box-shadow: 3px 3px 3px gray;
+    
+}
+
+
+/**********corporate.html:end*****/
+
+
+/******about.html: Start******/
+
+
+
+    /*****Part 1: Music quality****/
+#about h2 {
+    padding:20px;
+}
+#about main {
+    display:flex;
+    padding:0px;
+}
+#about .part-1 {
+    display: block;
+    width:60%;
+    padding:20px;
+   
+}
+#about .part-1 p {
+    float:right;
+   
+}
+
+#about .part-1 img {
+    width: 30%;
+    float:right;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+   
+}
+ /*****Part 2: Design quality****/
+
+#about .part-2 {
+    padding:20px;
+    width:60%;
+}
+
+
+
+#about.walkman-images {
+    display:flex;
+}
+
+
+.walkman-images figure img {
+    max-width:100%;
+    max-height: 100%;
+    border-radius: 90px;
+    box-shadow: 10px 10px 10px gray;
+    width:60%;
+}
+
+   
+}
+ #about main a{
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+    font-style: italic;
+
+}
+#about main a:hover {
+    color:red;
+    padding: 4px;
+    border: 2px solid #E86F68;
+    border-radius: 10px;
+    font-size: 15px;
+}
+    /*********sidebar ***************/
+
+#about aside {
+    background:black;
+    height:auto;
+    float:left;
+    width:20%;
+    padding:0px;
+    transition-property:all;
+    transition-duration: 0.5s;
+    padding:10px;
+  
+
+}
+
+#about aside:hover {
+        width:120%;
+        opacity:0.8;
+        color:white;
+    line-height: 2em;
+}
+/******about.html: end******/
+ 
+
+    
+    
+/******support.html: start******/
+    
+.support {
+    padding:10px;
+    display:flex;
+        
+    }
+.support form{
+    width:50%;
+}
+
+    /******inout styling******/
+.support textarea{
+     background-color:beige;
+}
+.support input {
+    background-color:beige;
+}
+.support input[type=submit] {
+   
+    width: 90px;
+    padding:5px;
+    background-color: #83B799;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+}
+    /******support image******/
+.support img {
+    max-width: 100%;
+    max-height:100%;
+    border-radius: 100px;
+}
+.support article{
+   
+    width:40%;
+    height:auto;
+    
+}
+ /***********support.html:end********/
+
+/************feedback.html: start****/
+.feedback form{
+    padding:30px;
+    line-height: 3em;
+    
+}
+
+.feedback textarea{
+     background-color:beige;
+}
+.feedback input {
+    background-color:beige;
+}
+.feedback input[type=submit] {
+   
+    width: 90px;
+    padding:5px;
+    background-color: #83B799;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+}
+    /******support image******/
+
+
+/************feedback.html: end****/
